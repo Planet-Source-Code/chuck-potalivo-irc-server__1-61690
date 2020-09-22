@@ -1,0 +1,7 @@
+<Config>
+	<Server Name="localhost" Comments="" MaxConnets="10000" Port="6667"/>
+	<Console ShowSentData="-1" ShowRcvdData="-1"/>
+	<Network Name="IRCServerNet"/>
+	<Client PingInterval="30000" SendInterval="100" MaxJoins="1000"/>
+	<Telnet Port="23"/>
+</Config>

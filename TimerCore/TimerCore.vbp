@@ -1,0 +1,37 @@
+Type=OleDll
+Class=clsTimer; clsTimer.cls
+Module=modTimer; modTimer.bas
+Startup="(None)"
+HelpFile=""
+Title="TimerHelper"
+ExeName32="TimerHelper.dll"
+Path32="..\Bin"
+Command32=""
+Name="IRCTimerCore"
+HelpContextID="0"
+CompatibleMode="0"
+CompatibleEXE32="..\Bin\TimerHelper.dll"
+MajorVer=1
+MinorVer=5
+RevisionVer=6
+AutoIncrementVer=1
+ServerSupportFiles=0
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=1
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+ThreadingModel=1
+
+[MS Transaction Server]
+AutoRefresh=1

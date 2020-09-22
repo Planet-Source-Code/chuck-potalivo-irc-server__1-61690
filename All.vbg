@@ -1,0 +1,4 @@
+VBGROUP 5.0
+Project=SocketCore\SocketCore.vbp
+Project=TimerCore\TimerCore.vbp
+StartupProject=Current 1.0.0\IRCServer.vbp
