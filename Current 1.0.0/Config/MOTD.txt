@@ -1,0 +1,64 @@
+Test MOTD File...
+
+This server is still under developement.
+This is a Win32 based IRC Server, supporting rfc1459 (May 1993).
+Written in Visual Basic 6.0, using Winsock 1.0/2.0 API, SimpleXML, and GUID Ident
+Author:  Chuck Potalivo
+
+Features Implemented:  (04/12/2004)
+  -MODE
+    Set mode on channel
+    Set mode on user in channel (banning)
+  -NICK
+    Change nickname
+  -PART
+    Part channel with parting message
+  -KICK
+    Kick nickname from channel
+  -AWAY
+    Away message, ignoring private messages
+  -VERSION
+    Server version report
+  -STATS
+    Server uptime (-u)
+  -PRIVMSG/NOTICE (MSG)
+    Private messaging from user to user, and from user to channel
+  -WHOIS
+    Whois on a nickname
+
+Upcoming Features:  (* in progress)
+* -Server Reply and Error messages
+    More descriptive
+    Fully implement IRC status messages
+  -MOTD variables
+    Show server variables and status in MOTD
+  -MODE
+    Improvements, more modes
+    More Channel Operator Functionality
+  -NickServ
+    Nickname Ownership
+  -ChanServ
+    Channel Ownership
+  -OperServ
+  -Operator Features/Commands
+  -Server Console
+*   Telnet Administration
+*   Server Status Display Improvements
+    Direct Administration of Users (Registered and Unregistered)
+    Direct IRC access from server console (JOIN/PM support)
+    DCC recieve support (for uploading of files from operators)
+  -VBScript/JavaScript
+    Administrative Scripts
+      Task automation
+      Admin Bots
+    Ability for Channel Operators to upload scripts
+      Channel Bots
+      Channel Commands
+      Task Automation
+    Ability to extend server functionality without downtime
+  -Hostname/IP Masking
+* -Configuration Files
+    Operator settings
+    Console settings
+    Save Registered Nicknames
+    Save Registered Channels
